@@ -4,7 +4,7 @@ response = input('Do you want to guess a number? ')
 
 if response == 'yes':
     Status = True
-
+    #newcomment in if block
     while Status == True:
 
         x = random.randint(0, 100)
